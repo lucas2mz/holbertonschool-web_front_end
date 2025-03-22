@@ -87,30 +87,21 @@ a {
     --footer-padding: 5rem 0 1rem;
 }
 .section {
-    padding-left: var(--section-padding);
-    padding-right: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    padding: var(--section-padding);
 }
 .section-header {
     text-align: var(--section-header-align);
-    padding-left: var(--section-padding);
-    padding-right: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    padding: var(--section-padding);
 }
 .section-body {
-    padding-left: var(--section-body-padding);
-    padding-right: var(--section-body-padding);
-    padding-top: var(--section-body-padding);
-    padding-bottom: var(--section-body-padding);
+    padding: var(--section-body-padding);
     text-align: var(--section-footer-align);
 }
 .section-footer {
-    padding-left: var(--section-footer-padding);
-    padding-right: var(--section-footer-padding);
-    padding-top: var(--section-footer-padding);
-    padding-bottom: var(--section-footer-padding);
+    padding: var(--section-footer-padding);
+}
+.footer {
+    padding: var(--footer-padding);
 }
 a:link {
     font-style: italic;
@@ -123,10 +114,4 @@ a:hover {
 }
 a:active {
     background-color: var(--color-light-grey);
-}
-.footer {
-    padding-left: var(--footer-padding);
-    padding-right: var(--footer-padding);
-    padding-top: var(--footer-padding);
-    padding-bottom: var(--footer-padding);
 }
